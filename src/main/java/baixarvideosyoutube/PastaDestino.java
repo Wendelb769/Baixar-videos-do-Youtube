@@ -1,16 +1,10 @@
 package baixarvideosyoutube;
 
 public class PastaDestino {
-    private String pasta;
+    private String pasta = "Arquivos Baixados/%(title)s.%(ext)s";
 
-    public PastaDestino(String pasta){
-        this.pasta = pasta;
+    public PastaDestino(){
         
-    }
-
-    public void setPasta(String pasta){
-        this.pasta = pasta;
-
     }
 
     public String getPasta(){

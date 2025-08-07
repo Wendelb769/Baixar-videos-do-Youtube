@@ -2,6 +2,7 @@ package baixarvideosyoutube;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Download download = new Download();
+        download.escolherFormatoDoArquivo();
     }
 }
