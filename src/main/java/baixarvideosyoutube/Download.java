@@ -63,9 +63,16 @@ public class Download {
         
                     }
         
-                    process.waitFor(); 
-                    System.out.print("\nDownload concluído com sucesso.");
-                    escolherFormatoDoArquivo();
+                    int exitCode = process.waitFor();
+                    if(exitCode == 0){
+                        System.out.print("\nDownload concluído com sucesso.\n");
+                        escolherFormatoDoArquivo();
+
+                    } else{
+                        System.out.println("\nHouve algum erro, o arquivo não foi baixado.");
+                        escolherFormatoDoArquivo();
+
+                    }
         
                 } catch(Exception e){
                     e.printStackTrace();
@@ -108,14 +115,20 @@ public class Download {
         
                     }
         
-                    process.waitFor(); 
-                    System.out.print("\nDownload concluído com sucesso.");
-                    escolherFormatoDoArquivo();
+                    int exitCode = process.waitFor();
+                    if(exitCode == 0){
+                        System.out.print("\nDownload concluído com sucesso.\n");
+                        escolherFormatoDoArquivo();
+
+                    } else{
+                        System.out.println("\nHouve algum erro, o arquivo não foi baixado.");
+                        escolherFormatoDoArquivo();
+
+                    }
         
                 } catch(Exception e){
                     e.printStackTrace();
                 }
-                break;
 
             default:
                 System.out.print("\nInsira uma das opções disponíveis.");

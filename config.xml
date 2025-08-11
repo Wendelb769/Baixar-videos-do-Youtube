@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>console</headerType>
   <jar>C:\Users\wendel\Documents\ytdlp-java\target\ytdlp-java-1.0.jar</jar>
-  <outfile>C:\Users\wendel\Documents\ytdlp-java\Script2.exe</outfile>
+  <outfile>C:\Users\wendel\Documents\ytdlp-java\Script.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
