@@ -18,4 +18,4 @@ Este projeto é um aplicativo Java que permite baixar vídeos (ou áudios) do Yo
 
 1. **Clone o projeto** ou baixe os arquivos manualmente.
 2. **Garanta que o Java esteja instalado** na sua máquina (`java -version` no terminal).
-3. **Compile e execute** o código Java com sua IDE (IntelliJ, VS Code, etc.) ou terminal.
+3. **Abra o Script.exe** apenas abrir o executável ou o código Java com sua IDE (IntelliJ, VS Code, etc.) ou terminal.
